@@ -52,11 +52,15 @@ const FooterLogo = styled.div`
   img {
     height: 80px;
     margin-bottom: ${theme.spacing.md};
+    width: auto;
+    object-fit: contain;
   }
 
   @media (max-width: ${theme.breakpoints.mobile}) {
     img {
       height: 60px;
+      width: auto;
+      object-fit: contain;
     }
   }
 `

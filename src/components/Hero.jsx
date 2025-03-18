@@ -39,6 +39,13 @@ const HeroSection = styled.section`
   position: relative;
   overflow: hidden;
 
+  @media (max-width: ${theme.breakpoints.mobile}) {
+    background-attachment: scroll;
+    background-position: center center;
+    height: 100vh;
+    min-height: 600px;
+  }
+
   &::before {
     content: '';
     position: absolute;

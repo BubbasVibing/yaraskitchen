@@ -30,6 +30,12 @@ const Logo = styled.img`
   &:hover {
     transform: scale(1.05);
   }
+
+  @media (max-width: ${theme.breakpoints.mobile}) {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+  }
 `
 
 const NavLinks = styled.div`
